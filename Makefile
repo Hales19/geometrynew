@@ -16,4 +16,4 @@ build/square.o: src/square.c
 	$(CC) $(CFLAGS) src/square.c -o build/square.o -c -lm 
 
 clean:
-	rm -rf build/*.o bin/*.exe
+	rm -rf build/*.o bin/*.exe bin/geometry
